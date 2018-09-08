@@ -1,0 +1,10 @@
+{
+  "name": "appdevgroup1/appdevgroup1",
+  "description": "Appdev group 1 project",
+  "keywords": ["group work", "school"],
+  "license": "GNU",
+  "type": "project",
+  "require": {
+    "php": ">=7.1.3",
+  }
+}
