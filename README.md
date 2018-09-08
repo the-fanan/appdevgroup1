@@ -1,2 +1,2 @@
-# appdevgtoup1
-Reporsitory for group in CU EDS App Development Practical
+# Appdevgroup1
+Reporsitory for Group 1 in CU EDS App Development Practical
