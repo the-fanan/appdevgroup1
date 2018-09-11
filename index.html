@@ -6,58 +6,59 @@
 
         <!-- This is a link tag. It can only be used in the head tag. It is used to include external files to the code -->
         <link href="assets/css/style.css" rel="stylesheet"/>
-      
+
          <style>
-            .topnav {
-                background-color: blue;
-                overflow: visible;
-                    }
-            .topnav a {
-                float: left;
-                color: yellow
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: inherit;
-                font-size: 20px;
-                      }
-            .topnav a:hover {
-                background-color: black
-                color: black
-            }
-        .   .topnav a.active {
-                background-color: white
-                color: white;
-            }
-            </style>
+         </style>
     </head>
 
     <body>
         <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <!-- Your previous code
             <a class="#active" href="home">Home</a>
-        </div>
-        <div class="topnav">
+            note: do not put dots '.' or hash '#' when writing class or id names. Just use letters and numbers and start with a number
+            -->
             <a href="#assignment">Assignment</a>
-        </div>
-        <div class="topnav">
+
             <a href="#group info">Group info</a>
-        </div>
-        <div class"topnav">
+
             <a href="#about">About</a>
         </div>
+        <div class="content">
+            <h1>Humble Beginnings</h1>
+            <p>This is a paragraph tag. It seperates bloacks of texts.</p>
+            <i>This makes texts italics</i> </br>
+            This is an achor tag. Currently it leads to <a href="https://github.com/the-fanan/appdevgroup1">our repository</a></br>
+            This is the link to view <a href="https://appdevgroup1.herokuapp.com">our project</a> live.
+            <span> THis is a span. It is non-blocking. Anything that comes after it will be on the same line with it</span> Like this text.
+            <div> This is a div tag. It is a blocking tag. Anything that comes after it must start on the next line.</div> ike this text.
+            <br/> The line break makes sur anything after it starts on the next line too
+            app dev class
+            <p>deleted</p>
 
-        <h1>Humble Beginnings</h1>
-        <p>This is a paragraph tag. It seperates bloacks of texts.</p>
-        <i>This makes texts italics</i> </br>
-        This is an achor tag. Currently it leads to <a href="https://github.com/the-fanan/appdevgroup1">our repository</a></br>
-        This is the link to view <a href="https://appdevgroup1.herokuapp.com">our project</a> live.
-        <span> THis is a span. It is non-blocking. Anything that comes after it will be on the same line with it</span> Like this text.
-        <div> This is a div tag. It is a blocking tag. Anything that comes after it must start on the next line.</div> ike this text.
-        <br/> The line break makes sur anything after it starts on the next line too
-        app dev class
-        <p>deleted</p>
+            <div class="gallery">
+                <div class="image-holder">
+                    <img src="assets/images/tobi.jpg" >
+                    <h4>Oluwategbe Tobi</h4>
+                </div>
+                <!-- Compare your code here and the correction: <img src="assets/images/tobi.jpg" width="130" height="="130"> -->
+                <div class="image-holder">
+                    <img src="assets/images/stephanie.jpg" >
+                    <h4>Macpepple Stephanie</h4>
+                </div>
 
-        <img src="assets/images/tobi.jpg" width="130" height="="130"><h4>Oluwategbe Tobi</h4>
-        <img src="assets/images/stephanie.jpg" width="130" height="="130"><h4>Macpepple Stephanie</h4>
-        
+                <div class="image-holder">
+                    <img src="assets/images/fanan.jpg" >
+                    <h4>Fanan Dala</h4>
+                </div>
+            </div>
+
+            <!-- For stephanie
+            - The style tag can't be placed anywhere, it should always be in the head tag.
+        -->
+        <!-- For all
+        As much as possible try to write your styles in the external style sheet.
+        -->
+        </div>
     </body>
 </html>
