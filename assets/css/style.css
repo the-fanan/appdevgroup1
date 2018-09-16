@@ -10,7 +10,7 @@ p {
     color: blue;
 }
 
-.topnav {
+.navbar {
     display:block;
     width: 100%;
     position:fixed;
@@ -18,7 +18,7 @@ p {
     border:1px solid #e7e7e7;
     box-shadow: 0px 0px 1px #777;
         }
-.topnav a {
+.navbar a {
     float: left;
     color: blue;
     text-align: center;
@@ -26,11 +26,11 @@ p {
     text-decoration: inherit;
     font-size: 20px;
           }
-.topnav a:hover {
+.navbar a:hover {
     background-color: black;/* You didn't put a semicolon before*/
     color: white;/* You didn't put a semicolon before*/
 }
-.topnav a.active {
+.navbar a.active {
     background-color: Green;/* You didn't put a semicolon before*/
     color: white;
 }
