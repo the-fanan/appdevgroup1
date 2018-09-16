@@ -1,64 +1,97 @@
 <!DOCTYPE Html>
 <html>
     <head>
-        <!-- This sets the title of the tab in your browser-->
-        <title>App Dev Group 1</title>
 
-        <!-- This is a link tag. It can only be used in the head tag. It is used to include external files to the code -->
+        <title>Vilgax</title>
+
         <link href="assets/css/style.css" rel="stylesheet"/>
-
-         <style>
-         </style>
     </head>
 
     <body>
-        <div class="topnav">
+        <nav class="navbar">
             <a class="active" href="#home">Home</a>
-            <!-- Your previous code
-            <a class="#active" href="home">Home</a>
-            note: do not put dots '.' or hash '#' when writing class or id names. Just use letters and numbers and start with a number
-            -->
+
             <a href="#assignment">Assignment</a>
 
             <a href="#group info">Group info</a>
 
             <a href="#about">About</a>
-        </div>
-        <div class="content">
-            <h1>Humble Beginnings</h1>
-            <p>This is a paragraph tag. It seperates bloacks of texts.</p>
-            <i>This makes texts italics</i> </br>
-            This is an achor tag. Currently it leads to <a href="https://github.com/the-fanan/appdevgroup1">our repository</a></br>
-            This is the link to view <a href="https://appdevgroup1.herokuapp.com">our project</a> live.
-            <span> THis is a span. It is non-blocking. Anything that comes after it will be on the same line with it</span> Like this text.
-            <div> This is a div tag. It is a blocking tag. Anything that comes after it must start on the next line.</div> ike this text.
-            <br/> The line break makes sur anything after it starts on the next line too
-            app dev class
-            <p>deleted</p>
-
-            <div class="gallery">
-                <div class="image-holder">
-                    <img src="assets/images/tobi.jpg" >
-                    <h4>Oluwategbe Tobi</h4>
-                </div>
-                <!-- Compare your code here and the correction: <img src="assets/images/tobi.jpg" width="130" height="="130"> -->
-                <div class="image-holder">
-                    <img src="assets/images/stephanie.jpg" >
-                    <h4>Macpepple Stephanie</h4>
-                </div>
-
-                <div class="image-holder">
-                    <img src="assets/images/fanan.jpg" >
-                    <h4>Fanan Dala</h4>
+        </nav>
+        <div class="container">
+            <div class="row" id="welcome">
+                <div>
+                    <h1>Humble Beginnings</h1>
                 </div>
             </div>
 
-            <!-- For stephanie
-            - The style tag can't be placed anywhere, it should always be in the head tag.
-        -->
-        <!-- For all
-        As much as possible try to write your styles in the external style sheet.
-        -->
+            <div class="row" id="what-we-do">
+                <div>
+                    <h3>What we do</h3>
+                    <p>Our live site is <a href="https://appdevgroup1.herokuapp.com">here</a> </p>
+                    <p>Our repository is <a href="https://github.com/the-fanan/appdevgroup1">here</a> </p>
+                </div>
+            </div>
+
+            <div class="row" id="steps-to-recreate-project">
+                <div>
+                    <h3>Steps to recreate project.</h3>
+                    <ol>
+                        <li>Downloads
+                            <ul>
+                                <li>Download Atom</li>
+                                <li>Register on Git hub for an account</li>
+                                <li>Install Git</li>
+                                <li>Register for a Heroku account</li>
+                                <li>Install Heroku CLI</li>
+                            </ul>
+                        </li>
+
+                        <li>Setup
+                            <ul>
+                                <li>Clone repository into local machine</li>
+                                <li>Make updates</li>
+                            </ul>
+                        </li>
+
+                        <li>Live preview
+                            <ul>
+                                <li>Create composer.json file</li>
+                                <li>Add the following lines:
+                                    <p>
+                                        <code>
+                                        {</br>
+                                          "name": "appdevgroup1/appdevgroup1",</br>
+                                          "description": "Appdev group 1 project",</br>
+                                          "keywords": ["group work", "school"],</br>
+                                          "license": "GNU",</br>
+                                          "type": "project",</br>
+                                          "require": {</br>
+                                            "php": ">=7.1.3"</br>
+                                          }</br>
+                                      }</br>
+                                    </code>
+                                  </p>
+                              </li>
+
+                              <li>Push to heroku</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="row" id="tools-used">
+                <div>
+                    <ol>
+                        <li>Atom</li>
+                        <li>Git</li>
+                        <li>Git Hub</li>
+                        <li>Heroku</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ol>
+                </div>
+            </div>
         </div>
     </body>
 </html>
