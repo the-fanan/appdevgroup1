@@ -2,42 +2,32 @@ html, body {
     margin: 0;
 }
 
-h1 {
-    color: red;
-}
-
-p {
-    color: blue;
-}
-
-.topnav {
+.navbar {
     display:block;
     width: 100%;
     position:fixed;
     top: 0;
     border:1px solid #e7e7e7;
-    box-shadow: 0px 0px 1px #777;
-        }
-.topnav a {
+    box-shadow: 0px 0px 1px #cdcdcd;
+    background-color: #fff;
+    z-index: 99999999999;
+}
+.navbar a {
     float: left;
-    color: blue;
+    color: #cdcdcd;
     text-align: center;
     padding: 14px 16px;
     text-decoration: inherit;
     font-size: 20px;
-          }
-.topnav a:hover {
-    background-color: black;/* You didn't put a semicolon before*/
-    color: white;/* You didn't put a semicolon before*/
 }
-.topnav a.active {
-    background-color: Green;/* You didn't put a semicolon before*/
+.navbar a:hover {
+    font-weight: bold;
+}
+.navbar a.active {
+    background-color: #14e9ec;/* You didn't put a semicolon before*/
     color: white;
 }
 
-.content {
-    padding-top:50px;
-}
 .gallery img {
     width: 100%;
     height: 130px;
@@ -51,4 +41,37 @@ p {
     height:160px;
     float:left;
     margin: 5px;
+}
+
+.container {
+    width:100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+    padding-top:40px;
+}
+.row {
+    width: 100%;
+    display:block;
+    margin: 0;
+}
+
+#welcome>div {
+    width: 100%;
+    height: 600px;
+    display: block;
+    background-attachment: fixed;
+    background-image:url('../images/backgrounds/welcome1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#welcome>div>h1 {
+    color: #fff9f2;
+    margin: 10px;
+    position: absolute;
+    top:60px;
+    left: 50px;
+}
+#team-members {
+    padding-top:10px;
 }
