@@ -98,7 +98,7 @@
 
                     autoHeight: "off",
                     forceFullWidth: "off",
-                     
+
                     hideThumbsOnMobile: "off",
                     hideNavDelayOnMobile: 1500,
                     hideBulletsOnMobile: "off",
@@ -168,8 +168,8 @@
                 searchInput = $("#headerSearch .search-input"),
 				$this = this;
 
-            var stickyHeight = 60,
-                stickyNormalHeight = 90;
+            var stickyHeight = 30,
+                stickyNormalHeight = 30;
 
 
             $this.checkStickyMenu = function (fixHeader) {
@@ -179,8 +179,8 @@
                     logoImage.stop(true, true);
 
                     logoImage.animate({
-                         height: "auto",
-                         width: "auto"
+                         height: "40px",
+                         width: "40px"
                     }, 10, function () {
                         header.css({ top: "-40px" });
                         header.find(".logo").css({ height: stickyHeight });
@@ -189,8 +189,8 @@
                         menuHeader.css("padding-top", "21px").css("padding-bottom", "21px");
                         searchWrap.css("padding-top", "21px").css("padding-bottom", "19px");
                         logoImage.css("height", logoSmallHeight);
-                    
-                        
+
+
                         if (!body.hasClass("header-top")) {
                             header.css("top", "0px")
                         }
@@ -221,13 +221,13 @@
                             $("header nav ul.nav-main > li > a").css("color", "#444444");
 
                             var img = header.find(".logo").attr("data-normal-logo");
-                   
+
                             if(typeof (img) != "undefined")
                                 header.find(".logo img").attr("src", img);
                             else
                                 alert("Please enter the 'data-normal-logo' attr.");
 
-                                                         
+
                             $("#headerSearchOpen").css("color", "#444444");
                             $("header.transparent-header  ul.nav-pills > li.active > a").css("color", "#25CBF5");
                         }
@@ -243,7 +243,7 @@
                     }, 0, function () {
 
                         header.css({ top: "0px" });
-                        header.find(".logo").css({ height: stickyNormalHeight });
+                        header.find(".logo").css({ height: 50 });
                         searchInput.css({ top: stickyNormalHeight });
 
                         menuHeader.css("padding-top", "35px").css("padding-bottom", "35px");
@@ -278,7 +278,7 @@
                             $("header nav ul.nav-main > li > a").css("color", fontColor);
                             $("header.semi-transparent-header nav ul.nav-main > li > a").css("font-size", "14px");
                             $("header.semi-transparent-header nav ul.nav-main i.fa-caret-down").css("color", "#fff");
-                            
+
                             var img = header.find(".logo").attr("data-sticky-logo");
                             if(typeof (img) != "undefined")
                                 header.find(".logo img").attr("src", img);
@@ -437,7 +437,7 @@
 					target = $(this).attr("href"),
 					$this = $(this);
 
-                var stickyHeight = $(window).scrollTop() > 60 ? 0: 30; // for the sticky menu            
+                var stickyHeight = $(window).scrollTop() > 60 ? 0: 30; // for the sticky menu
 
                 if ($(window).width() > 991) {
                     $("html,body").animate({ scrollTop: $(target).offset().top - (headerHeight) + stickyHeight }, 600, "easeOutQuad");
@@ -492,7 +492,7 @@
                     pagination: false,
                     paginationNumbers: false,
 
-                    // Responsive 
+                    // Responsive
                     responsive: true,
                     responsiveRefreshRate: 200,
                     responsiveBaseWidth: window,
@@ -509,7 +509,7 @@
                     //Auto height
                     autoHeight: false,
 
-                    //JSON 
+                    //JSON
                     jsonPath: false,
                     jsonSuccess: false,
 
@@ -719,7 +719,7 @@
                             parallaxAsset.find('video').remove();
                         }
 
-                    } else if (parallaxAsset.hasClass('parallax-window-height')) { 
+                    } else if (parallaxAsset.hasClass('parallax-window-height')) {
                         jQuery(this).height($window.height() - (parseInt(jQuery(this).css('padding-top'), 10) * 2) - 30);
                         jQuery(this).find('.v-content-wrapper').vCenterTop();
                         $window.scroll(function () {
@@ -850,7 +850,7 @@
                         };
                         var mapInstance = new google.maps.Map(mapContainer, settings);
                         var companyMarker = "";
-                                                
+
                         jQuery(mapContainer).appear(function () {
                             setTimeout(function () {
                                 if (pinLogoURL) {
@@ -884,7 +884,7 @@
                                 });
                             }, 1000);
                         });
-                                                
+
                         if (mapColor !== "") {
                             mapInstance.mapTypes.set('map_style', styledMap);
                             mapInstance.setMapTypeId('map_style');
@@ -1006,7 +1006,7 @@
             });
         },
         //End Common
-        
+
 
         //IconBoxes
         v_IconBoxes: function () {
@@ -1132,7 +1132,7 @@
             });
         },
         //End ProgressBar
- 
+
 
         //BackToTop
         v_BackToTop: function () {
@@ -1157,7 +1157,7 @@
         v_ReloadFunctions: {
             init: function () {
 
-                // Remove title attributes from images to avoid showing on hover 
+                // Remove title attributes from images to avoid showing on hover
                 jQuery('img[title]').each(function () {
                     jQuery(this).removeAttr('title');
                 });
@@ -1360,7 +1360,7 @@
     //});
 
     Core.initialize();
- 
+
 
     $(window).load(function () {
         jQuery('[rel=tooltip]').tooltip();
