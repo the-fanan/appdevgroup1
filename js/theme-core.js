@@ -248,7 +248,7 @@
 
                         menuHeader.css("padding-top", "35px").css("padding-bottom", "35px");
                         searchWrap.css("padding-top", "35px").css("padding-bottom", "35px");
-                        logoImage.css("height", "auto").css("width", "auto");
+                        logoImage.css("height", "60px").css("width", "60px");
 
 
                         if (header.hasClass("transparent-header")) {
@@ -261,8 +261,11 @@
                             $("header nav ul.nav-main > li > a").css("font-size", "14px");
 
                             var img = header.find(".logo").attr("data-sticky-logo");
-                            if(typeof (img) != "undefined")
+                            if(typeof (img) != "undefined") {
                                 header.find(".logo img").attr("src", img);
+                                header.find(".logo img").attr("style", "width:50px; height:50px;");
+                            }
+
                             else
                                 alert("Please enter the 'data-sticky-logo' attr.");
 
