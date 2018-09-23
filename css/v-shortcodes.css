@@ -1,11 +1,11 @@
 ﻿/* Info
-================================================== 
+==================================================
 
-     Author: www.windowsvlx.com 
+     Author: www.windowsvlx.com
      Version: 1.0
      License: GNU General Public License version
 
- ================================================== 
+ ==================================================
 
 
  Info */
@@ -14,7 +14,7 @@
 
 /* --------------------------------------------
 
-	* Table Of Contents 
+	* Table Of Contents
 
     - GALLERY SHORTCODE
     - MAP SHORTCODE
@@ -160,7 +160,7 @@
     width: 100%;
     height: auto;
 }
- 
+
 
 
 
@@ -548,13 +548,13 @@
 }
 
 .feature-box-icon.small .v-icon {
-    line-height: 28px;
-    height: 30px;
+    line-height: 50px;
+    height: 50px;
 }
 
 .v-icon.v-icon-large {
-    font-size: 50px;
-    line-height: 69px;
+    font-size: 70px;
+    line-height: 70px;
     width: auto;
     height: 56px;
 }
@@ -616,7 +616,10 @@
 .feature-box-icon.small {
     padding: 19px 20px 19px 18px;
 }
-
+/*.feature-box-icon img{
+    position: absolute;
+    width:
+}*/
 .feature-box-icon.cont-large {
     padding: 37px;
     -moz-border-radius: 50%;
@@ -884,7 +887,7 @@
     color: #ffffff !important;
 }
 
- 
+
 
 /* --------------------------------------------
 	BUTTON SHORTCODE
@@ -929,7 +932,7 @@
 }
 
 button.btn:not(.v-btn.v-second-dark):not(.v-btn.v-third-dark) {
-    border: none; 
+    border: none;
 }
 
 .btn.v-btn.disabled {
@@ -1357,7 +1360,7 @@ input[type=submit]:not(.no-three-d):not(.v-third-dark):not(.v-second-dark):activ
 }
 
 .btn.v-btn i {
-    margin-top: 0!important; 
+    margin-top: 0!important;
 }
 
 .btn.v-btn.v-large-button {
@@ -1590,7 +1593,7 @@ input[type=submit]:not(.no-three-d):not(.v-third-dark):not(.v-second-dark):activ
 .tabs-left .nav-tabs > li {
 	margin-right: -2px;
 }
- 
+
 .tabs-left .nav-tabs > li:first-child a:hover,
 .tabs-left .nav-tabs > li:first-child a {
 	border-radius: 5px 0 0 0;
@@ -1611,7 +1614,7 @@ input[type=submit]:not(.no-three-d):not(.v-third-dark):not(.v-second-dark):activ
 .nav-tabs > li a i.fa {
     width: 20px;
 }
- 
+
 /* Vertical - Right Side */
 .tabs-right .tab-content {
 	border-radius: 5px 0 5px 5px;
@@ -2062,7 +2065,7 @@ h3.testimonial-title.v-heading span:after {
 
 
 
- 
+
 
 
 
@@ -2382,7 +2385,7 @@ ul.social-icons.large.circle li a {
     margin-right: 8px;
     padding: 13px;
 }
- 
+
 
 /* --------------------------------------------
 	PARALLAX SHORTCODE
@@ -2569,11 +2572,11 @@ ul.social-icons.large.circle li a {
         background-position: 1920px 0;
     }
 }
-    
- 
 
 
- 
+
+
+
 
 
 /* --------------------------------------------
@@ -2693,7 +2696,7 @@ ul.social-icons.large.circle li a {
 .v-divider-v2 i[class*="icon-"] {
     top: -20px;
 }
- 
+
 
 /* --------------------------------------------
 	COUNT SHORTCODE
@@ -2746,13 +2749,13 @@ ul.social-icons.large.circle li a {
     color: #FFFFFF;
 }
 
-.v-counter-wrap.white .v-icon, 
-.v-counter-wrap.white .count-number, 
-.v-counter-wrap.white .v-counter-text, 
+.v-counter-wrap.white .v-icon,
+.v-counter-wrap.white .count-number,
+.v-counter-wrap.white .v-counter-text,
 .v-counter-wrap.white .v-counter-text {
     color: white;
 }
- 
+
 
 /* --------------------------------------------
 	TEXT BLOCK SHORTCODE
@@ -2830,7 +2833,7 @@ ul.social-icons.large.circle li a {
     padding: 0 15px;
 }
 
- 
+
 
 
 /* --------------------------------------------
@@ -2861,7 +2864,7 @@ ul.social-icons.large.circle li a {
 
 
 
- 
+
 
 
 /* --------------------------------------------
@@ -2890,7 +2893,7 @@ ul.social-icons.large.circle li a {
     -webkit-box-shadow: 2px 2px 0 rgba(0,0,0,.25);
     box-shadow: 2px 2px 0 rgba(0,0,0,.25);
 }
- 
+
 
 /* --------------------------------------------
 	SEARCH SHORTCODE
@@ -2906,7 +2909,7 @@ ul.social-icons.large.circle li a {
     padding: 10px 5% 10px 30px;
 }
 
- 
+
 /* --------------------------------------------
 	HR SHORTCODE
 -------------------------------------------- */
@@ -2925,7 +2928,7 @@ ul.social-icons.large.circle li a {
 .horizontal-break.right {
     margin-right: 0px !important;
 }
- 
+
 
 /* --------------------------------------------
 	CLIENT BOX SHORTCODE
@@ -2946,7 +2949,7 @@ ul.social-icons.large.circle li a {
     height: auto;
     display: block;
 }
- 
+
 
 /* --------------------------------------------
 	TYPOGRAPHY SHORTCODE
@@ -3031,7 +3034,7 @@ blockquote.pullquote {
     font-family: 'Vidaloka', serif;
     font-size: 24px;
 }
- 
+
 
 
 /* --------------------------------------------
@@ -3075,7 +3078,7 @@ blockquote.pullquote {
     display: inline-block;
     margin-bottom: 6px;
 }
- 
+
 
 
 /* --------------------------------------------
@@ -3114,7 +3117,7 @@ span.progress-bar-tooltip {
     color: #FFF;
     line-height: 15px;
     font-size: 11px;
-    display: block; 
+    display: block;
     top: -28px;
     right: 2px;
     -moz-border-radius: 3px;
@@ -3140,7 +3143,7 @@ span.progress-bar-tooltip:after {
 .progress-label {
     margin-bottom: 2px;
 }
- 
+
 
 /* --------------------------------------------
 	CIRCLE CHART SHORTCODE
